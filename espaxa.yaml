@@ -6,10 +6,10 @@ esphome:
 #reference to custom component, change file location if needed
 
   includes:
-  - AXA/espaxa.h 
+  - custom_components/espaxa/espaxa.h 
 wifi:
   ssid: !secret wifi_ssid
-  password: !secret wifi_key
+  password: !secret wifi_password
 
 # Enable logging
 logger:

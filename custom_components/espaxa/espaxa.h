@@ -6,7 +6,6 @@ using namespace esphome::uart;
 using namespace esphome::sensor;
 using namespace esphome::logging;
 
-
 using namespace esphome;
 
 #define DELAY_MS 30000 // Delay in miliseconds between window checks, give it some time
@@ -22,7 +21,6 @@ using namespace esphome;
 
 #define AXA_OPENED 210 // 210 Unlocked
 #define AXA_CLOSED 211 // 211 Strong Locked
-
 
 class CustomAXA2RemoteUART : public Component, public UARTDevice {
 protected:
